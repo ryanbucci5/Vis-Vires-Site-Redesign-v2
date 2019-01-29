@@ -1,0 +1,863 @@
+html {
+  overflow-x: hidden !important; }
+
+.nav-item, .nav-link {
+  color: #4371d1 !important;
+  font-weight: 600 !important; }
+
+#home h3 {
+  color: #4371d1 !important; }
+
+.navbar {
+  background: #1d3464 !important; }
+
+body {
+  background-color: #fff;
+  font-family: "Lato", sans-serif !important;
+  font-weight: 700 !important; }
+
+#header {
+  position: relative;
+  background: url(../img/redesign-header-01.png) center no-repeat;
+  background-size: cover;
+  min-height: 700px;
+  width: 100%;
+  height: auto;
+  font-weight: 700; }
+  #header .primary-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  #header h1 {
+    font-size: 12rem;
+    color: #be8d2c;
+    margin-top: 180px;
+    font-weight: 700; }
+  #header #header-guild-tabard {
+    display: none !important; }
+
+.about-paragraph {
+  font-size: 1.5rem;
+  font-weight: 400; }
+
+#community-section {
+  background: #1d3464;
+  font-weight: 700;
+  z-index: 999 !important; }
+  #community-section img {
+    z-index: 900 !important;
+    position: relative; }
+  #community-section h2 {
+    font-size: 10rem;
+    color: #fff; }
+  #community-section p {
+    color: #fff;
+    font-size: 38px;
+    font-weight: 500 !important;
+    margin-top: 140px; }
+
+#guild-tabard-divider-section {
+  background: #be8d2c;
+  margin-top: -664px;
+  z-index: 1 !important; }
+  #guild-tabard-divider-section img {
+    z-index: 991 !important;
+    bottom: 0;
+    position: relative;
+    height: 100%;
+    width: auto;
+    margin-top: -75px; }
+
+#about {
+  background: #be8d2c;
+  padding-top: -50px;
+  margin-top: -100px;
+  padding-bottom: 50px;
+  z-index: 799; }
+  #about .background-image {
+    background: url(../img/bfa-image-11-01.png) center no-repeat;
+    opacity: 1;
+    background-size: cover; }
+  #about h2 {
+    font-size: 15rem;
+    color: #fff;
+    z-index: 800 !important; }
+  #about p {
+    font-weight: 600 !important;
+    font-size: 1.5rem !important;
+    color: #fff;
+    line-height: 1rem; }
+  #about .vv-is {
+    margin-bottom: 70px; }
+  #about .about-sub-heading {
+    font-size: 2.5rem !important; }
+  #about #vis-vires-inspiration {
+    margin-top: 100px;
+    line-height: 1rem; }
+    #about #vis-vires-inspiration p {
+      line-height: 1rem; }
+  #about #vis-vires-mission {
+    margin-top: 100px;
+    line-height: 1rem; }
+    #about #vis-vires-mission p {
+      line-height: 1rem; }
+
+#sylvanas-section {
+  margin-top: -512px; }
+  #sylvanas-section img {
+    z-index: 999 !important;
+    position: relative;
+    height: 105%;
+    width: auto; }
+
+#stats-section {
+  background-color: #1d3464 !important;
+  padding-top: -500px;
+  padding-bottom: 100px;
+  margin-top: -58px;
+  opacity: 1 !important; }
+  #stats-section .background-image {
+    background: url(../img/bfa-image-2.PNG) center no-repeat;
+    opacity: 1;
+    background-size: cover; }
+  #stats-section h2 {
+    font-size: 15rem;
+    color: #fff;
+    z-index: 999 !important; }
+  #stats-section p {
+    font-weight: 600 !important;
+    font-size: 1.5rem !important;
+    color: #fff;
+    line-height: 1rem; }
+  #stats-section .vv-is {
+    margin-top: -20px;
+    margin-bottom: 80px; }
+  #stats-section .about-sub-heading {
+    font-size: 2.5rem !important; }
+  #stats-section #stats-section-1 p {
+    margin-top: 80px;
+    font-size: 2rem !important;
+    line-height: 1.9rem !important; }
+  #stats-section #stats-section-2 {
+    margin-top: 40px; }
+    #stats-section #stats-section-2 p {
+      margin-top: 70px;
+      font-size: 2rem !important;
+      line-height: 1.9rem !important; }
+  #stats-section #stats-section-3 {
+    margin-top: 40px; }
+    #stats-section #stats-section-3 p {
+      margin-top: 80px;
+      font-size: 2rem !important;
+      line-height: 1.9rem !important; }
+  #stats-section img {
+    z-index: 999 !important;
+    position: relative;
+    height: 200px;
+    width: auto; }
+  #stats-section #games-we-play {
+    margin-top: 50px; }
+    #stats-section #games-we-play img {
+      height: 80px;
+      width: auto;
+      margin: 20px 40px; }
+
+#contact {
+  margin-top: -5px;
+  background-color: #1d3464;
+  padding-bottom: 150px; }
+  #contact h2 {
+    font-size: 12rem;
+    color: #fff; }
+  #contact .btn-lg {
+    color: #cdd0d4;
+    background-color: #0f234b;
+    border-radius: 50px; }
+    #contact .btn-lg:hover {
+      background-color: #05132e; }
+  #contact #myForm .input-group, #contact #myForm .input-group-lg, #contact #myForm .form-control {
+    color: #1d3464 !important;
+    background-color: #0f234b !important;
+    border-radius: 10px; }
+
+#footer {
+  margin-top: -5px;
+  background-color: #0f234b;
+  padding-bottom: -40px; }
+  #footer h6 {
+    color: #1e4086; }
+  #footer a {
+    color: #1e4086; }
+
+@media screen and (min-width: 1919px) {
+  #about .background-image {
+    background: url(../img/bfa-image-11-bigger-vw-01.png) center no-repeat !important;
+    opacity: 1;
+    background-size: cover; }
+  #stats-section .background-image {
+    background: #1d3464 !important;
+    opacity: 1;
+    background-size: cover; }
+  .container-fluid {
+    width: 1919px; } }
+
+@media all and (min-width: 1301px) and (max-width: 1500px) {
+  #community-section {
+    margin-bottom: 299px; }
+    #community-section p {
+      margin-top: 20px; }
+    #community-section img {
+      height: 700px;
+      width: auto;
+      margin-right: 170px; }
+  #about #vis-vires-mission {
+    line-height: 1.8rem; }
+    #about #vis-vires-mission p {
+      line-height: 1.8rem; } }
+
+@media all and (min-width: 1133px) and (max-width: 1300px) {
+  #header h1 {
+    font-size: 8rem;
+    color: #be8d2c;
+    margin-top: 200px;
+    margin-bottom: 0px;
+    font-weight: 700; }
+  #header #header-guild-tabard {
+    display: none; }
+  #community-section {
+    padding-bottom: 20px; }
+    #community-section h2 {
+      font-size: 4.2rem;
+      margin-top: 25px;
+      margin-bottom: -10px; }
+    #community-section img {
+      height: 600px;
+      width: auto;
+      margin-bottom: -333px; }
+    #community-section p {
+      font-size: 25px;
+      margin-top: 70px;
+      margin-bottom: 30px; }
+  #guild-tabard-divider-section {
+    margin-top: 0px; }
+    #guild-tabard-divider-section img {
+      display: none;
+      margin-top: 0px; }
+  #about {
+    padding-top: 40px;
+    margin-top: 0px; }
+    #about h2 {
+      font-size: 3.8rem;
+      z-index: 999 !important; }
+    #about p {
+      font-size: 20px;
+      line-height: 1.8rem; }
+    #about #vis-vires-definition p {
+      line-height: 1.7rem !important;
+      margin-bottom: 15px; }
+    #about .about-sub-heading {
+      font-size: 2.9rem !important;
+      margin-bottom: 25px; }
+    #about #vis-vires-inspiration {
+      line-height: 1.8rem; }
+      #about #vis-vires-inspiration p {
+        line-height: 1.8rem; }
+    #about #vis-vires-mission {
+      line-height: 1.8rem; }
+      #about #vis-vires-mission p {
+        line-height: 1.8rem; }
+  #sylvanas-section {
+    margin-top: -365px;
+    background: transparent; }
+    #sylvanas-section img {
+      height: 400px;
+      width: auto; }
+  #stats-section {
+    margin-top: -59px;
+    padding-top: 50px; }
+    #stats-section h2 {
+      font-size: 3.8rem; }
+    #stats-section p {
+      font-size: 20px;
+      line-height: 1.8rem; }
+    #stats-section .vv-is {
+      font-size: 1.8rem !important;
+      margin-top: 12px; }
+    #stats-section .about-sub-heading {
+      font-size: 2rem !important; }
+    #stats-section #stats-section-1 p {
+      font-size: 20px;
+      margin-top: 65px;
+      text-align: center !important;
+      margin-bottom: 60px; }
+    #stats-section #stats-section-2 p {
+      font-size: 20px;
+      margin-top: 65px;
+      text-align: center !important;
+      margin-bottom: 60px; }
+    #stats-section #stats-section-3 p {
+      font-size: 20px;
+      margin-top: 65px;
+      text-align: center !important;
+      margin-bottom: 60px; }
+  #contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px; } }
+
+@media all and (min-width: 992px) and (max-width: 1132px) {
+  #header h1 {
+    font-size: 8rem;
+    color: #be8d2c;
+    margin-top: 200px;
+    margin-bottom: 0px;
+    font-weight: 700; }
+  #header #header-guild-tabard {
+    display: none; }
+  #community-section {
+    padding-bottom: 20px; }
+    #community-section h2 {
+      font-size: 3.8rem;
+      margin-top: 25px;
+      margin-bottom: -10px; }
+    #community-section img {
+      height: 400px;
+      width: auto;
+      margin-bottom: -229px; }
+    #community-section p {
+      font-size: 20px;
+      margin-top: 50px;
+      margin-bottom: 30px; }
+  #guild-tabard-divider-section {
+    margin-top: 0px; }
+    #guild-tabard-divider-section img {
+      display: none;
+      margin-top: 0px; }
+  #about {
+    padding-top: 40px;
+    margin-top: 0px; }
+    #about h2 {
+      font-size: 3.8rem;
+      z-index: 999 !important; }
+    #about p {
+      font-size: 20px;
+      line-height: 1.8rem; }
+    #about #vis-vires-definition p {
+      line-height: 1.7rem !important;
+      margin-bottom: 15px; }
+    #about .about-sub-heading {
+      font-size: 2.9rem !important;
+      margin-bottom: 25px; }
+    #about #vis-vires-inspiration {
+      line-height: 1.8rem; }
+      #about #vis-vires-inspiration p {
+        line-height: 1.8rem; }
+    #about #vis-vires-mission {
+      line-height: 1.8rem; }
+      #about #vis-vires-mission p {
+        line-height: 1.8rem; }
+  #sylvanas-section {
+    margin-top: -365px;
+    background: transparent; }
+    #sylvanas-section img {
+      height: 400px;
+      width: auto; }
+  #stats-section {
+    margin-top: -59px;
+    padding-top: 50px; }
+    #stats-section h2 {
+      font-size: 3.8rem; }
+    #stats-section p {
+      font-size: 20px;
+      line-height: 1.8rem; }
+    #stats-section .vv-is {
+      font-size: 1.8rem !important;
+      margin-top: 12px; }
+    #stats-section .about-sub-heading {
+      font-size: 2rem !important; }
+    #stats-section #stats-section-1 p {
+      font-size: 20px;
+      margin-top: 65px;
+      text-align: center !important;
+      margin-bottom: 60px; }
+    #stats-section #stats-section-2 p {
+      font-size: 20px;
+      margin-top: 65px;
+      text-align: center !important;
+      margin-bottom: 60px; }
+    #stats-section #stats-section-3 p {
+      font-size: 20px;
+      margin-top: 65px;
+      text-align: center !important;
+      margin-bottom: 60px; }
+  #contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px; } }
+
+@media all and (min-width: 960px) and (max-width: 991px) {
+  #header h1 {
+    font-size: 8rem;
+    color: #be8d2c;
+    margin-top: 200px;
+    margin-bottom: 0px;
+    font-weight: 700; }
+  #header #header-guild-tabard {
+    display: none; }
+  #community-section {
+    padding-bottom: 20px; }
+    #community-section h2 {
+      font-size: 3.8rem;
+      margin-top: 50px;
+      margin-bottom: -10px; }
+    #community-section img {
+      display: none; }
+    #community-section p {
+      font-size: 20px;
+      margin-top: 20px;
+      margin-bottom: 30px; }
+  #guild-tabard-divider-section {
+    margin-top: 0px; }
+    #guild-tabard-divider-section img {
+      display: none;
+      margin-top: 0px; }
+  #about {
+    padding-top: 40px;
+    margin-top: 0px;
+    text-align: center !important; }
+    #about h2 {
+      font-size: 3.8rem;
+      z-index: 999 !important; }
+    #about p {
+      font-size: 20px;
+      line-height: 1.8rem; }
+    #about #vis-vires-definition p {
+      line-height: 1.7rem !important;
+      margin-bottom: 15px; }
+    #about .about-sub-heading {
+      font-size: 2.9rem !important;
+      margin-bottom: 25px; }
+    #about #vis-vires-inspiration {
+      line-height: 1.8rem; }
+      #about #vis-vires-inspiration p {
+        line-height: 1.8rem; }
+    #about #vis-vires-mission {
+      line-height: 1.8rem; }
+      #about #vis-vires-mission p {
+        line-height: 1.8rem; }
+  #sylvanas-section {
+    margin-top: -30px;
+    background: #be8d2c; }
+    #sylvanas-section img {
+      height: 400px;
+      width: auto; }
+  #stats-section {
+    margin-top: -59px;
+    padding-top: 50px; }
+    #stats-section h2 {
+      font-size: 3.8rem; }
+    #stats-section p {
+      font-size: 20px;
+      line-height: 1.8rem; }
+    #stats-section .vv-is {
+      font-size: 1.8rem !important;
+      margin-top: 12px; }
+    #stats-section .about-sub-heading {
+      font-size: 2rem !important; }
+    #stats-section #stats-section-1 p {
+      font-size: 20px;
+      margin-top: 20px;
+      text-align: center !important;
+      margin-bottom: 60px; }
+    #stats-section #stats-section-2 p {
+      font-size: 20px;
+      margin-top: 20px;
+      text-align: center !important;
+      margin-bottom: 60px; }
+    #stats-section #stats-section-3 p {
+      font-size: 20px;
+      margin-top: 20px;
+      text-align: center !important;
+      margin-bottom: 60px; }
+  #contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px; } }
+
+@media all and (min-width: 768px) and (max-width: 959px) {
+  #header h1 {
+    font-size: 3.7rem;
+    color: #be8d2c;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    font-weight: 700; }
+  #header #header-guild-tabard {
+    display: block !important;
+    margin-top: -20px;
+    margin-left: 20px; }
+  #community-section {
+    padding-bottom: 20px; }
+    #community-section h2 {
+      font-size: 3.8rem;
+      margin-top: 50px;
+      margin-bottom: -10px; }
+    #community-section img {
+      display: none; }
+    #community-section p {
+      font-size: 20px;
+      margin-top: 20px;
+      margin-bottom: 30px; }
+  #guild-tabard-divider-section {
+    margin-top: 0px; }
+    #guild-tabard-divider-section img {
+      display: none;
+      margin-top: 0px; }
+  #about {
+    padding-top: 40px;
+    margin-top: 0px;
+    text-align: center !important; }
+    #about h2 {
+      font-size: 3.8rem;
+      z-index: 999 !important; }
+    #about p {
+      font-size: 20px;
+      line-height: 1.8rem; }
+    #about #vis-vires-definition p {
+      line-height: 1.7rem !important;
+      margin-bottom: 15px; }
+    #about .about-sub-heading {
+      font-size: 2.9rem !important;
+      margin-bottom: 25px; }
+    #about #vis-vires-inspiration {
+      line-height: 1.8rem; }
+      #about #vis-vires-inspiration p {
+        line-height: 1.8rem; }
+    #about #vis-vires-mission {
+      line-height: 1.8rem; }
+      #about #vis-vires-mission p {
+        line-height: 1.8rem; }
+  #sylvanas-section {
+    margin-top: -30px;
+    background: #be8d2c; }
+    #sylvanas-section img {
+      height: 400px;
+      width: auto; }
+  #stats-section {
+    margin-top: -59px;
+    padding-top: 50px; }
+    #stats-section h2 {
+      font-size: 3.8rem; }
+    #stats-section p {
+      font-size: 20px;
+      line-height: 1.8rem; }
+    #stats-section .vv-is {
+      font-size: 1.8rem !important;
+      margin-top: 12px; }
+    #stats-section .about-sub-heading {
+      font-size: 2rem !important; }
+    #stats-section #stats-section-1 p {
+      font-size: 20px;
+      margin-top: 20px;
+      text-align: center !important;
+      margin-bottom: 60px; }
+    #stats-section #stats-section-2 p {
+      font-size: 20px;
+      margin-top: 20px;
+      text-align: center !important;
+      margin-bottom: 60px; }
+    #stats-section #stats-section-3 p {
+      font-size: 20px;
+      margin-top: 20px;
+      text-align: center !important;
+      margin-bottom: 60px; }
+  #contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px; } }
+
+@media all and (min-width: 480px) and (max-width: 767px) {
+  #header h1 {
+    font-size: 3.7rem;
+    color: #be8d2c;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    font-weight: 700; }
+  #header #header-guild-tabard {
+    display: block !important;
+    margin-top: -20px;
+    margin-left: 20px; }
+  #community-section {
+    padding-bottom: 20px; }
+    #community-section h2 {
+      font-size: 3.8rem;
+      margin-top: 50px;
+      margin-bottom: -10px; }
+    #community-section img {
+      display: none !important; }
+    #community-section p {
+      font-size: 20px;
+      margin-top: 20px;
+      margin-bottom: 30px; }
+  #guild-tabard-divider-section {
+    margin-top: 0px; }
+    #guild-tabard-divider-section img {
+      display: none;
+      margin-top: 0px; }
+  #about {
+    padding-top: 40px;
+    margin-top: 0px;
+    text-align: center !important; }
+    #about h2 {
+      font-size: 3.8rem;
+      z-index: 999 !important; }
+    #about p {
+      font-size: 20px;
+      line-height: 1.8rem; }
+    #about #vis-vires-definition p {
+      line-height: 1.7rem !important;
+      margin-bottom: 15px; }
+    #about .about-sub-heading {
+      font-size: 2.9rem !important;
+      margin-bottom: 25px; }
+    #about #vis-vires-inspiration {
+      line-height: 1.8rem; }
+      #about #vis-vires-inspiration p {
+        line-height: 1.8rem; }
+    #about #vis-vires-mission {
+      line-height: 1.8rem; }
+      #about #vis-vires-mission p {
+        line-height: 1.8rem; }
+  #sylvanas-section {
+    margin-top: -30px;
+    background: #be8d2c; }
+    #sylvanas-section img {
+      height: 400px;
+      width: auto; }
+  #stats-section {
+    margin-top: -59px;
+    padding-top: 50px; }
+    #stats-section h2 {
+      font-size: 3.2rem; }
+    #stats-section p {
+      font-size: 20px;
+      line-height: 1.8rem; }
+    #stats-section .vv-is {
+      margin-top: 0px; }
+    #stats-section .about-sub-heading {
+      font-size: 2rem !important; }
+    #stats-section #stats-section-1 p {
+      font-size: 20px;
+      margin-top: 20px;
+      text-align: center !important;
+      margin-bottom: 60px; }
+    #stats-section #stats-section-2 p {
+      font-size: 20px;
+      margin-top: 20px;
+      text-align: center !important;
+      margin-bottom: 60px; }
+    #stats-section #stats-section-3 p {
+      font-size: 20px;
+      margin-top: 20px;
+      text-align: center !important;
+      margin-bottom: 60px; }
+  #contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px; }
+  .thx-for-contact-text,
+  .well-be-in-touch-soon-text,
+  .contact-go-back-text {
+    font-size: 2.5rem; }
+  .contact-us-success-image {
+    width: 250px;
+    height: auto; } }
+
+@media all and (max-width: 479px) {
+  #header h1 {
+    font-size: 3.7rem;
+    color: #be8d2c;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    font-weight: 700; }
+  #header #header-guild-tabard {
+    display: block !important;
+    margin-top: -20px;
+    margin-left: 20px; }
+  #community-section h2 {
+    font-size: 3.5rem;
+    margin-top: 50px;
+    margin-bottom: -10px; }
+  #community-section img {
+    display: none !important; }
+  #community-section p {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px; }
+  #guild-tabard-divider-section {
+    margin-top: 0px; }
+    #guild-tabard-divider-section img {
+      display: none;
+      margin-top: 0px; }
+  #about {
+    padding-top: 30px;
+    margin-top: 0px;
+    text-align: center !important; }
+    #about h2 {
+      font-size: 3.5rem;
+      z-index: 999 !important; }
+    #about p {
+      font-size: 20px;
+      line-height: 1.8rem; }
+    #about #vis-vires-definition p {
+      line-height: 1.7rem !important;
+      margin-bottom: 15px; }
+    #about .about-sub-heading {
+      font-size: 2.9rem !important;
+      margin-bottom: 25px; }
+    #about #vis-vires-inspiration {
+      line-height: 1.8rem; }
+      #about #vis-vires-inspiration p {
+        line-height: 1.8rem; }
+    #about #vis-vires-mission {
+      line-height: 1.8rem; }
+      #about #vis-vires-mission p {
+        line-height: 1.8rem; }
+  #sylvanas-section {
+    margin-top: -30px;
+    background: #be8d2c; }
+    #sylvanas-section img {
+      height: 400px;
+      width: auto; }
+  #stats-section {
+    margin-top: -59px;
+    padding-top: 50px; }
+    #stats-section h2 {
+      font-size: 3.2rem; }
+    #stats-section p {
+      font-size: 20px;
+      line-height: 1.8rem; }
+    #stats-section .vv-is {
+      margin-top: 0px; }
+    #stats-section .about-sub-heading {
+      font-size: 2rem !important; }
+    #stats-section #stats-section-1 p {
+      font-size: 20px;
+      margin-top: 20px;
+      text-align: center !important;
+      margin-bottom: 60px; }
+    #stats-section #stats-section-2 p {
+      font-size: 20px;
+      margin-top: 20px;
+      text-align: center !important;
+      margin-bottom: 60px; }
+    #stats-section #stats-section-3 p {
+      font-size: 20px;
+      margin-top: 20px;
+      text-align: center !important;
+      margin-bottom: 60px; }
+  #contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px; }
+  .contact-us-header {
+    font-size: 3rem; }
+  .thx-for-contact-text,
+  .well-be-in-touch-soon-text,
+  .contact-go-back-text {
+    font-size: 2.5rem; }
+  .contact-us-success-image {
+    width: 250px;
+    height: auto; } }
+
+@media all and (max-width: 320px) {
+  #header h1 {
+    font-size: 3.7rem;
+    color: #be8d2c;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    font-weight: 700; }
+  #header #header-guild-tabard {
+    display: block !important;
+    margin-top: -20px; }
+  #community-section h2 {
+    font-size: 2.75rem;
+    margin-top: 50px;
+    padding-right: 10px;
+    text-align: center !important; }
+  #community-section img {
+    display: none !important; }
+  #community-section p {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 70px; }
+  #guild-tabard-divider-section {
+    margin-top: 0px; }
+    #guild-tabard-divider-section img {
+      display: none;
+      margin-top: 0px; }
+  #about {
+    padding-top: 20px;
+    margin-top: 0px;
+    text-align: center !important; }
+    #about h2 {
+      font-size: 3.2rem;
+      z-index: 999 !important; }
+    #about p {
+      font-size: 20px;
+      line-height: 1.8rem; }
+    #about #vis-vires-definition p {
+      line-height: 1.7rem !important;
+      margin-bottom: 15px; }
+    #about .about-sub-heading {
+      font-size: 2.9rem !important;
+      margin-bottom: 25px; }
+    #about #vis-vires-inspiration {
+      line-height: 1.8rem; }
+      #about #vis-vires-inspiration p {
+        line-height: 1.8rem; }
+    #about #vis-vires-mission {
+      line-height: 1.8rem; }
+      #about #vis-vires-mission p {
+        line-height: 1.8rem; }
+  #sylvanas-section {
+    margin-top: -30px;
+    background: #be8d2c; }
+    #sylvanas-section img {
+      height: 400px;
+      width: auto; }
+  #stats-section {
+    margin-top: -59px;
+    padding-top: 50px; }
+    #stats-section h2 {
+      font-size: 3.2rem; }
+    #stats-section p {
+      font-size: 20px;
+      line-height: 1.8rem; }
+    #stats-section .vv-is {
+      margin-top: 0px; }
+    #stats-section .about-sub-heading {
+      font-size: 2rem !important; }
+    #stats-section #stats-section-1 p {
+      font-size: 20px;
+      margin-top: 20px;
+      text-align: center !important;
+      margin-bottom: 60px; }
+    #stats-section #stats-section-2 p {
+      font-size: 20px;
+      margin-top: 20px;
+      text-align: center !important;
+      margin-bottom: 60px; }
+    #stats-section #stats-section-3 p {
+      font-size: 20px;
+      margin-top: 20px;
+      text-align: center !important;
+      margin-bottom: 60px; }
+  #contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px; }
+  .thx-for-contact-text,
+  .well-be-in-touch-soon-text,
+  .contact-go-back-text {
+    font-size: 2.5rem; }
+  .contact-us-success-image {
+    width: 200px;
+    height: auto; } }
+
+#contact-success-page {
+  background: linear-gradient(to right, #1488cc, #2b32b2); }
